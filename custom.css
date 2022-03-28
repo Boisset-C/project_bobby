@@ -1,4 +1,11 @@
-/* Custom Color Pallette:
+/* 
+Global Styles: 
+- font-family: Noto Sans, 
+
+Navbar Styles:
+- font-family: Jost
+
+Custom Color Pallette:
 - bg-hero: background: #8CBCC8;  (33%)
 - services-blurbs: background: #FF6E61; (22%)
 - bg-about: background: #F5A769; (11%)
@@ -10,7 +17,7 @@ Button Style Types:
 - Outline
 - Form Submit Button
 
-Text Colors:
+Text Style Types:
 - header-color: color: #444444;
 - text-color: color: #6A6A6A;
  */
