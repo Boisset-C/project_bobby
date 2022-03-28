@@ -6,20 +6,35 @@ Global Styles:
 nav {
   font-family: "Jost", sans-serif;
   font-family: "Roboto", sans-serif;
+
+  background: transparent;
 }
 
-/* Custom Color Pallette:
-- bg-hero: background: #8CBCC8;  (33%)
-- services-blurbs: background: #FF6E61; (22%)
-- bg-about: background: #F5A769; (11%)
-- bg-cta: background: #8BBDC8; (33%)
-- pricing-banner: background: #BD9393;
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+  border: none !important;
+}
 
+/* Custom Color Pallette:*/
+
+/* - background hero:  */
+.bg-hero {
+  background: #8cbcc8;
+  opacity: 33%;
+}
+/* - services-blurbs: background: #FF6E61; (22%) */
+/* - bg-about: background: #F5A769; (11%) */
+/* - bg-cta: background: #8BBDC8; (33%) */
+/* - pricing-banner: background: #BD9393; */
+
+/*
 Button Style Types:
 - Dark
 - Outline
 - Form Submit Button
+*/
 
+/*
 Text Style Types:
 - header-color: color: #444444;
 - text-color: color: #6A6A6A;
