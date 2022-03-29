@@ -113,6 +113,11 @@ nav {
   color: #444444;
 }
 
+/* GALLERY SECTION */
+.gallery-figure {
+  margin-bottom: 0rem;
+}
+
 /* CUSTOM COLOR PALLETTES:*/
 
 /* - background hero:  */
