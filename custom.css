@@ -38,6 +38,10 @@ nav {
   margin-top: 4rem;
 }
 
+.bg-hero {
+  background-color: rgba(140, 188, 200, 0.33);
+}
+
 .hero-header {
   font-size: 2rem;
   font-weight: 700;
@@ -118,11 +122,39 @@ nav {
   margin-bottom: 0rem;
 }
 
-/* CUSTOM COLOR PALLETTES:*/
+/* CTA SECTION  */
+#cta {
+  background-color: rgba(139, 189, 200, 0.33);
+  border-radius: 0px;
+}
 
-/* - background hero:  */
-.bg-hero {
-  background-color: rgba(140, 188, 200, 0.33);
+.cta-header {
+  font-size: 3rem;
+  line-height: 65px;
+  font-weight: 700;
+  text-align: center;
+
+  color: #444444;
+}
+
+.cta-button {
+  font-size: 20px;
+  line-height: 29px;
+  background: #ffffff;
+  box-shadow: 5px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+
+  color: #444444;
+}
+
+/* PRICING */
+.pricing-header {
+  font-size: 3rem;
+  line-height: 65px;
+  font-weight: 700;
+  text-align: center;
+
+  color: #444444;
 }
 /* - services-blurbs: background: #FF6E61; (22%) */
 /* - bg-about: background: #F5A769; (11%) */
