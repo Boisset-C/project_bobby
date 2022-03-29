@@ -96,7 +96,7 @@
                 alt="flying cartoon character top"
               />
             </figure>
-            <figure class="text-end">
+            <figure class="text-start text-sm-end">
               <img
                 class="img-fluid"
                 src="/assets/A2-hero-images/B3-hero-character-middle.png"
@@ -493,15 +493,58 @@
     <section id="form">
       <div class="container-md">
         <div class="row">
-          <div class="col-sm-8">
+          <div class="col-sm-7">
             <h2 class="form-header fw-bold m-5">
-              We can help you put together your next NFT collection
+              Wanna discuss a project? Got some questions?
             </h2>
+            <form method="post" name="contact-landing">
+              <input type="hidden" name="form-name" value="contact-landing" />
+              <div class="mb-3 mx-3">
+                <label for="FormControlInput1" class="form-label color-white"
+                  >Your name</label
+                >
+                <input
+                  type="text"
+                  class="form-control bg-charcoal input-bg input-custom-color"
+                  id="FormControlInput1"
+                  placeholder="name"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3 mx-3">
+                <label for="FormControlInput1" class="form-label color-white"
+                  >Your email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control bg-charcoal input-bg color-gullgray"
+                  id="FormControlInput1"
+                  placeholder="name@example.com"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3 mx-3">
+                <label for="FormControlTextarea1" class="form-label color-white"
+                  >Compose your message</label
+                >
+                <textarea
+                  class="form-control bg-charcoal input-bg"
+                  id="FormControlTextarea1"
+                  style="color: #94a3b8"
+                  rows="3"
+                  name="message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn about-btn-custom mx-3 mb-3">
+                Send Message
+              </button>
+            </form>
+            <!--End of Form-->
           </div>
           <div class="col-sm-4">
-            <figure>
+            <figure class="m-5">
               <img
-                class=""
+                class="img-fluid"
                 src="/assets/A6-form-images/B9-form-placeholder.png"
                 alt="circular placeholder for art"
               />
