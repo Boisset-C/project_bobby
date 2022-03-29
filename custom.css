@@ -3,6 +3,7 @@ GLOBAL STYLES:
 */
 * {
   font-family: Noto Sans, sans-serif;
+  color: #6a6a6a;
 }
 
 /* NAVBAR STYLES*/
@@ -26,15 +27,13 @@ nav {
   border: none !important;
 }
 
-/*nav ul*/
-
 /*nav links*/
 .nav-link {
   color: #000000 !important;
 }
 
-/*MOBILE DROPDOWN*/
-/*hero section*/
+/*HERO SECTION*/
+
 #hero {
   margin-top: 4rem;
 }
@@ -80,6 +79,40 @@ nav {
   }
 }
 
+/* SERVICES SECTION */
+.services-header {
+  color: #444444;
+}
+
+.services-subheader {
+  color: #444444;
+}
+
+.services-card {
+  background-color: rgba(255, 110, 97, 0.22);
+  border: none;
+}
+
+.services-card-comment {
+  font-size: 1.5rem;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: rgba(245, 167, 105, 0.11);
+}
+.about-header {
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+
+  color: #444444;
+}
+
+.about-subheader {
+  color: #444444;
+}
+
 /* CUSTOM COLOR PALLETTES:*/
 
 /* - background hero:  */
@@ -100,6 +133,7 @@ Button Style Types:
 
 /*
 Text Style Types:
-- header-color: color: #444444;
 - text-color: color: #6A6A6A;
- */
+*/
+
+/* - header-color: color: #444444; */
