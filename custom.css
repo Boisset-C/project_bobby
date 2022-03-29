@@ -156,6 +156,57 @@ nav {
 
   color: #444444;
 }
+
+.pricing-card {
+  background: rgba(68, 68, 68, 0.1);
+  border-radius: 0px;
+}
+
+@media (min-width: 576px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .pricing-card {
+    height: 20rem;
+  }
+}
+
+.pricing-solid-btn {
+  background: #444444;
+  box-shadow: 3px 3px 0px rgba(68, 68, 68, 0.25);
+  width: 100%;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.pricing-solid-btn:hover {
+  color: #ffffff;
+}
+
+.pricing-card-text {
+  color: #000000;
+}
+
+.pricing-amount {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  font-family: "Noto Sans";
+  color: #000000;
+}
+
+.pricing-banner {
+  background-color: #bd9393;
+  color: #ffffff;
+}
+
+/* FORM SECTION */
+
+#form {
+  background-color: #444444;
+}
+
+.form-header {
+  color: #ffffff;
+}
 /* - services-blurbs: background: #FF6E61; (22%) */
 /* - bg-about: background: #F5A769; (11%) */
 /* - bg-cta: background: #8BBDC8; (33%) */
