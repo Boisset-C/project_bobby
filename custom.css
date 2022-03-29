@@ -36,12 +36,35 @@ nav {
   margin-top: 4rem;
 }
 
+.hero-solid-btn {
+  background: #444444;
+  box-shadow: 3px 3px 0px rgba(68, 68, 68, 0.25);
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.hero-solid-btn:hover {
+  color: #ffffff;
+}
+
+.hero-outline-btn {
+  border: 4px solid #444444;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 0px rgba(68, 68, 68, 0.25);
+  border-radius: 6px;
+}
+@media (max-width: 576px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .mobile-hide {
+    display: none;
+  }
+}
+
 /* CUSTOM COLOR PALLETTES:*/
 
 /* - background hero:  */
 .bg-hero {
-  background: #8cbcc8;
-  opacity: 33%;
+  background-color: rgba(140, 188, 200, 0.33);
 }
 /* - services-blurbs: background: #FF6E61; (22%) */
 /* - bg-about: background: #F5A769; (11%) */
