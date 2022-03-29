@@ -1,6 +1,9 @@
 /* 
 GLOBAL STYLES: 
-- font-family: Noto Sans,  */
+*/
+* {
+  font-family: Noto Sans, sans-serif;
+}
 
 /* NAVBAR STYLES*/
 nav {
@@ -34,6 +37,23 @@ nav {
 /*hero section*/
 #hero {
   margin-top: 4rem;
+}
+
+.hero-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #444444;
+}
+
+@media (min-width: 576px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .hero-header {
+    margin-top: 12rem;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #444444;
+  }
 }
 
 .hero-solid-btn {
