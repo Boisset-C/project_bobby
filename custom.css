@@ -224,6 +224,20 @@ nav {
 
   color: #444444;
 }
+
+.form-bg {
+  background: #3c3c3c;
+  border: #3c3c3c;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.form-bg:focus {
+  background: #3c3c3c;
+  border: #3c3c3c;
+  border-radius: 6px;
+  color: #ffffff;
+}
 /* - services-blurbs: background: #FF6E61; (22%) */
 /* - bg-about: background: #F5A769; (11%) */
 /* - bg-cta: background: #8BBDC8; (33%) */
