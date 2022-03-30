@@ -210,6 +210,19 @@ nav {
 
 .form-text {
   color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.form-submit-btn {
+  background: #ffffff;
+  box-shadow: 5px 5px 0px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 29px;
+
+  color: #444444;
 }
 /* - services-blurbs: background: #FF6E61; (22%) */
 /* - bg-about: background: #F5A769; (11%) */
